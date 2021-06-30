@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "themysticgeek/larp-voting",
+    "description": "Enable voting within LARP Boss app (local and national options)",
     "keywords": [
-        ":vendor_name",
+        "themysticgeek",
         "laravel",
-        "package_slug"
+        "larp-voting"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/themysticgeek/larp-voting",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Jessica Karels (The Mystic Geek)",
+            "email": "jess@themysticgeek.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Themysticgeek\\LarpVoting\\": "src",
+            "Themysticgeek\\LarpVoting\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Themysticgeek\\LarpVoting\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Themysticgeek\\LarpVoting\\LarpVotingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LarpVoting": "Themysticgeek\\LarpVoting\\LarpVotingFacade"
             }
         }
     },

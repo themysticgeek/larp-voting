@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Themysticgeek\LarpVoting\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LarpVotingCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'larp-voting';
 
     public $description = 'My command';
 
